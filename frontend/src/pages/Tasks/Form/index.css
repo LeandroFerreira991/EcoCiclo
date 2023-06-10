@@ -1,0 +1,43 @@
+.label-form {
+ font-size: 20px;
+}
+
+.icon-shipping {
+    max-width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.icon-action {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF5100;
+    background-color: #FFFFFF;
+}
+
+.input-text {
+    width: 600px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-text::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button-salve {
+    border: 1px solid #008037;
+    border-radius: 5px ;
+    background-color: #71AC32; 
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-weight: 500;
+    width: 120px;
+    height: 40px;
+}
